@@ -1,0 +1,403 @@
+/*Font styels start */
+@font-face{
+    font-family: 'Bahnschrift';
+    src: url('../fonts/BAHNSCHRIFT.TTF') format('truetype');     
+    font-style: normal;
+}
+/*Font styels ends */
+body{
+    color: #000000;
+    font-family: 'Bahnschrift';
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* Styles for Header starts */
+.headerWrapper{
+    padding: 22px 0;
+}
+.headerWrapper .row{
+    align-items: center;
+}
+.headerWrapper nav{
+    text-align: right;
+    float: right;
+}
+.headerWrapper nav li{
+    font-size: 18px;
+    display: inline;
+    margin-right: 25px;
+}
+.headerWrapper nav li a{
+    color: #000000;
+    text-decoration: none;
+}
+.headerWrapper nav li:last-child{
+    margin-right: 0px;
+}
+.headerWrapper nav li .btnEnquiry, .contactWrapper .btnSubmit{
+    background-color: #FFCE5F;
+    padding: 13px 15px;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+}
+/* Styles for Header ends */
+/* Styles for Banner starts */
+.bannerWrapper{
+    background: url('../images/banner-img.jpg') no-repeat center center;
+    background-size: cover;
+    height: 620px;
+    align-items: center;
+}
+.bannerWrapper > div:nth-child(2){
+    text-align: center;
+    color: #ffffff;
+}
+.bannerWrapper > div:nth-child(2) h1{
+    font-size: 95px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.bannerWrapper > div:nth-child(2) span{
+    font-size: 24px;
+    margin-top: 25px;
+    display: inline-block;
+    text-indent: 6rem;
+}
+.bannerWrapper > div:nth-child(2) h1 span{
+    display: block;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-indent: 0px;
+}
+/* Styles for Banner ends */
+
+/* Styles for About Us section starts*/
+
+.aboutWrapper{
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+.aboutWrapper h2, .serviceWrapper h2, .contactWrapper h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #1C3C6E;
+    margin: 20px 0;
+}
+.aboutWrapper .row:first-child > div{
+    margin: 1rem 0;
+}
+.aboutWrapper h2{
+    margin: 45px 0 20px 0;
+}
+.aboutWrapper p{
+    font-size: 18px;
+    /* font-weight: 600; */
+    color: #000000;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    /* margin-bottom: 5rem; */
+}
+.aboutWrapper h3{
+    color: #1C3C6E;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.aboutWrapper .directorsGroup{
+    color: #1C3C6E;
+    text-align: center;
+    width: fit-content;
+}
+.aboutWrapper .directorsGroup:first-child{
+    margin-right: 25px;
+}
+.aboutWrapper .directorsGroup .imageSpace{
+    padding: 10px;
+    border: 1px solid #E4E4E4;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+.aboutWrapper  .directorsGroup:first-child{
+    /* margin-right: 50px; */
+}
+.aboutWrapper .directorsGroup h4{
+   font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.aboutWrapper .directorsGroup p{
+    font-size: 18px;
+    color: #1C3C6E;
+    font-weight: 100;
+}
+/* Styles for About Us section ends*/
+
+/* Styles for Services section starts*/
+.serviceWrapper{
+    background-color: #FAF8F3;
+    padding: 2rem 0 3rem;
+}
+.serviceWrapper .serviceBox{
+    background-color: #ffffff;
+    padding: 22px;
+    border: 1px solid #E4E4E4;
+    box-shadow: 0px 4px 20px rgba(206, 206, 206, 0.31);
+    border-radius: 24px;
+    height: 155px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+
+}
+.serviceWrapper .serviceBox .col-5{
+    padding: 0px;
+}
+.serviceWrapper h4{
+    color: #1C3C6E;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.serviceWrapper .serviceBox h3{
+    font-size: 22px;
+    color: #1C3C6E;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.serviceWrapper .serviceBox .linkMore{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px 16px;
+    color: #1C3C6E;
+    background: #FFCE5F;
+    border-radius: 34px;
+    text-decoration: none;
+    display: inline-block;
+}
+.serviceWrapper .row:nth-child(2) .col-4:last-child  .col, .serviceWrapper .row:first-child .col-4:last-child  .col{
+    padding: 0;
+}
+/* Styles for Services section ends*/
+
+/* Styles for Asset section starts*/
+.assetWrapper{
+    background-image: url('../images/asset-mask.png'), url('../images/asset-banner.png');
+    background-position: center center;
+    height: 500px;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0px 58px;
+}
+.assetWrapper h2{
+    font-size: 50px;
+    font-weight: 700;
+   
+    margin-bottom: 30px;
+}
+.assetWrapper p{
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+.assetWrapper nav .assetGroup li{
+    background: url('../images/img_list-style.png') no-repeat left top;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    flex-basis: 50%;
+    text-align: left;
+    padding-left: 40px;
+    margin-bottom: 25px;
+}
+.assetWrapper .assetGroup{
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.assetWrapper nav .assetGroup li p{
+    font-size: 16px;
+}
+.assetWrapper .row > div{
+    padding: 0px;
+}
+/* Styles for Asset section ends*/
+
+/* Styles for Contact Us starts*/
+.contactWrapper{
+    padding: 30px 0px 144px;
+}
+.contactWrapper h3{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contactWrapper address{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.contactSection li{
+    font-size: 18px;
+    color: #000000;
+    padding-left: 36px;
+    margin-bottom: 15px;
+}
+.contactSection .mobile{
+    background: url('../images/icon-call.png') no-repeat left center;
+}.contactSection .email{
+    background: url('../images/icon-message.png') no-repeat left center;
+}
+.contactSection .linkedIn{
+    background: url('../images/icon-ln.png') no-repeat left center;
+}
+.contactWrapper input, .contactWrapper textarea{
+    width: 100%;
+    border: 0.5px solid #19345F;
+    border-radius: 6px;
+}
+.contactWrapper input{
+    height: 44px;
+    margin-bottom: 16px;
+}
+.contactWrapper textarea{
+    height: 165px;
+}
+.contactWrapper .logoSpace{
+    margin-bottom: 30px;
+}
+.contactWrapper .btnSubmit{
+    width: 130px;
+    float: right;
+
+}
+/* Styles for Contact Us ends*/
+
+/* Styles for Footer starts*/ 
+footer{
+    background-color: #19345F;
+    padding: 20px 0px 27px;
+}
+footer li{
+    margin-bottom: 10px;
+}
+footer .subPages li{
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+footer li a, footer li a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer .subSections li a, footer .subSections li{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.53);
+}
+footer .copyRight li{
+    font-size: 12px;
+    color: #ffffff;
+}
+
+/* Styles for footer ends*/
+
+
+/* Styles for Mutual Funds page starts*/
+
+.subHeader{
+background: url('../images/bg_subheader.png') no-repeat left center;
+background-size: cover;
+font-size: 40px;
+font-weight: 700;
+color: #ffffff;
+height: 150px;
+align-items: center;
+}
+.aboutWrapper p, .nriWrapper p, .hniWrapper p, .reaWrapper p, .insuranceWrapper p, .debitWrapper p, .equityWrapper p{
+    font-size: 16px !important;
+    letter-spacing: 0.01em;
+}
+.bannerWrapperMF, .bannerWrapperRea, .bannerWrapperHNI, .bannerWrapperNRI, .bannerWrapperInsurance, .bannerWrapperEquity, .bannerWrapperDebit{
+    background-size: cover !important;
+}
+.bannerWrapperMF{
+    background: url('../images/banner_mf.png') no-repeat left center;    
+    height: 420px;
+}
+.bannerWrapperRea{
+    background: url('../images/banner_Rea.png') no-repeat left center;    
+    height: 420px;
+}
+.bannerWrapperHNI{
+    background: url('../images/banner_HNI.png') no-repeat left center;    
+    height: 420px;
+}
+.bannerWrapperNRI{
+    background: url('../images/banner_NRI.png') no-repeat left center;    
+    height: 420px;
+}
+.bannerWrapperInsurance{
+    background: url('../images/banner_insurance.png') no-repeat left center;    
+    height: 420px;
+}
+.contentWrapper{
+    padding: 3rem 0 6rem;
+}
+.contentWrapper p{
+    color: #000000;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    margin-bottom: 2rem;
+}
+.contentWrapper ul li{
+    background: url('../images/img_list-style.png') no-repeat left top;
+    padding-left: 24px;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+/* Styles for Mutual Funds page ends*/
+
+/* Styles for Equity Page starts */
+.bannerWrapperEquity{
+    background: url('../images/banner_equity.png') no-repeat left center;    
+    height: 420px;
+}
+.equityWrapper h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1C3C6E;
+    margin-bottom: 28px;
+    margin-top: 20px;
+}
+.equityWrapper p{
+    margin: 0.7rem 0 1.5rem 0;
+}
+.equityWrapper .equityTypes > div:nth-child(2){
+    text-align: right;
+}
+.equityWrapper li p{
+    margin: 0.9rem 0 2rem 0;
+}
+.equityWrapper .equityTypes:nth-child(2) h2, .equityWrapper .equityTypes:nth-child(3) h2{
+    margin: 1rem 0 2rem 0;
+}
+/* Styles for Equity Page ends */
+
+/* Styles for Debit Page ends */
+.bannerWrapperDebit{
+    background: url('../images/banner_debit.png') no-repeat left center;    
+    height: 420px;
+}
+.debitTypes{
+    margin-bottom: 40px;
+}
+/* Styles for Debit Page ends */
