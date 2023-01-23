@@ -324,7 +324,7 @@ align-items: center;
     font-size: 16px !important;
     letter-spacing: 0.01em;
 }
-.bannerWrapperMF, .bannerWrapperRea, .bannerWrapperHNI, .bannerWrapperNRI, .bannerWrapperInsurance, .bannerWrapperEquity, .bannerWrapperDebit{
+.bannerWrapperMF, .bannerWrapperRea, .bannerWrapperHNI, .bannerWrapperNRI, .bannerWrapperInsurance, .bannerWrapperEquity, .bannerWrapperDebit, .bannerWrapperTax{
     background-size: cover !important;
 }
 .bannerWrapperMF{
@@ -345,6 +345,10 @@ align-items: center;
 }
 .bannerWrapperInsurance{
     background: url('../images/banner_insurance.png') no-repeat left center;    
+    height: 420px;
+}
+.bannerWrapperTax{
+    background: url('../images/banner_Tax.png') no-repeat;
     height: 420px;
 }
 .contentWrapper{

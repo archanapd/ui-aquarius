@@ -92,7 +92,7 @@ footer .row > div:nth-child(2), footer .row > div:nth-child(3), footer .row > di
 .contactWrapper .row div:nth-child(2){
     margin-top: 20px;
 }
-.bannerWrapperMF, .bannerWrapperRea, .bannerWrapperHNI, .bannerWrapperNRI, .bannerWrapperInsurance, .bannerWrapperEquity, .bannerWrapperDebit{
+.bannerWrapperMF, .bannerWrapperRea, .bannerWrapperHNI, .bannerWrapperNRI, .bannerWrapperInsurance, .bannerWrapperEquity, .bannerWrapperDebit, .bannerWrapperTax{
     height: 200px;
     background-size: cover;
 }
