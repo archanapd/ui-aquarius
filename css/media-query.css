@@ -16,12 +16,17 @@
     z-index: 1;
     width: 150px;
     top: 9px;
+    right: -20px;
     position: relative;
 }
 .headerWrapper .navbar li{
     float: right;
-    width: 250px;
-    padding: 10px 0;
+    width: 200px;
+    padding: 15px 0;
+    margin-right: 20px;
+}
+.headerWrapper .navbar li:last-child{
+    margin-right: 20px !important;
 }
 .headerWrapper .logoSpace img{
     width: 160px;
@@ -73,6 +78,8 @@ footer .row > div:nth-child(2), footer .row > div:nth-child(3), footer .row > di
 .serviceWrapper .serviceBox{
     height: auto;
     text-align: center;
+    width: 100%;
+    margin: 0px auto 20px;
 }
 .serviceWrapper .serviceBox h3{
     font-size: 16px;
@@ -100,4 +107,5 @@ footer .row > div:nth-child(2), footer .row > div:nth-child(3), footer .row > di
     font-size: 26px;
     height: 70px;
 }
+
 }
