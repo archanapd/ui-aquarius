@@ -33,7 +33,7 @@
                                 <li><a href="#services">Services</a></li>
                                 <li>Blog</li>
                                 <li><a href="#contactUS">Contact Us</a></li>
-                                <li><button class="btnEnquiry"><a href="#contactUS">Enquiry Now</a></button></li>
+                                <li><button class="btnEnquiry"><a href="#contactUS">Enquire Now</a></button></li>
                             </ul>
                         </div>
                     </nav>
@@ -254,26 +254,31 @@
                     </nav>
                 </div>
                 <div class="col-md-8">
-                    <h3>Enquiry Now</h3>
-                    <form>
+                    <h3>Enquire Now</h3>
+                    <form action="mail.php" method="post">
                         <div class="row">
                             <div class="col-md-6">
                                 <div>
-                                    <input type="text" />
+                                    <label for="user-name">Enter your name</label>
+                                    <input type="text" name="user-name" required/>
                                 </div>
                                 <div>
-                                    <input type="text" />
+                                    <label for="mobile">Enter your mobile</label>
+                                    <input type="number" name="mobile" required/>
                                 </div>
                                 <div>
-                                    <input type="text" />
+                                   
+                                    <label for="email">Enter your email</label>
+                                    <input type="email" name="email" required/>
                                 </div>
 
                             </div>
                             <div class="col-md-6">
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <label for="message">Enter your message</label>
+                                <textarea name="" id="" cols="30" rows="10" name="message" required></textarea>
                             </div>
                         </div>
-                        <button class="btnSubmit">Submit</button>
+                        <input type="submit" class="btnSubmit"></input>
                     </form>
                 </div>
             </div>
