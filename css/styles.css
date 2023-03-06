@@ -113,7 +113,6 @@ body{
 .aboutWrapper .directorsGroup{
     color: #1C3C6E;
     text-align: center;
-    width: fit-content;
 }
 .aboutWrapper .directorsGroup:first-child{
     margin-right: 25px;
@@ -123,6 +122,10 @@ body{
     border: 1px solid #E4E4E4;
     border-radius: 16px;
     margin-bottom: 25px;
+    height: 290px;
+} 
+.aboutWrapper .directorsGroup.profile-detail {
+    text-align: left;
 }
 .aboutWrapper  .directorsGroup:first-child{
     /* margin-right: 50px; */
