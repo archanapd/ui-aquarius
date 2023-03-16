@@ -140,6 +140,9 @@ body{
     color: #1C3C6E;
     font-weight: 100;
 }
+.aboutWrapper .directorsGroup .profile-detail {
+    text-align: left;
+}
 /* Styles for About Us section ends*/
 
 /* Styles for Services section starts*/
